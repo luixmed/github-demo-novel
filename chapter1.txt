@@ -1,5 +1,5 @@
 Chapter 1
-- We meet Nick, Tom, Daisy, and jordan
+assssssssssssllslslldkkdk alalalalala
 
 Commit messages in Git are textual descriptions that accompany each commit you make to a repository. They serve as documentation for the changes introduced in the commit, providing context and clarity to your collaborators (and your future self) about why the changes were made and what they entail.
 
