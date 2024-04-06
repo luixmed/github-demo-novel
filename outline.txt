@@ -4,3 +4,38 @@ Chapter 1
 Commit messages in Git are textual descriptions that accompany each commit you make to a repository. They serve as documentation for the changes introduced in the commit, providing context and clarity to your collaborators (and your future self) about why the changes were made and what they entail.
 
 Here are some key aspects of commit messages in Git:
+
+1. **Clear and Descriptive**: A good commit message should be clear, concise, and descriptive. It should accurately summarize the changes made in the commit in a few sentences or bullet points.
+
+2. **Brief Summary**: The first line of the commit message should serve as a brief summary of the changes. It should be succinct yet informative, providing enough detail to understand the nature of the changes at a glance.
+
+CHAPTER 2
+
+3. **Detailed Explanation**: Following the summary, you can include a more detailed explanation of the changes, if necessary. This can include information about why the changes were made, any related issues or tasks, and any other relevant context.
+
+4. **Keep Lines Short**: Try to keep each line of the commit message to a maximum of 72-80 characters. This makes the message easier to read in various Git tools and command-line interfaces.
+
+5. **Use Imperative Mood**: Write commit messages in the imperative mood, such as "Fix bug" or "Add feature". This convention helps maintain consistency and clarity across commit messages.
+
+6. **Separate Header and Body**: If your commit message requires a detailed explanation, separate the header (summary) from the body (explanation) with a blank line. This improves readability and organization.
+
+Here's an example of a well-formatted commit message:
+
+```
+Add validation for user input
+
+- Validate user email address format
+- Add error messages for invalid inputs
+- Update documentation to reflect changes
+```
+
+And here's an example of a poorly formatted commit message:
+
+```
+Fixed bug in code
+```
+
+The second example lacks detail and context, making it difficult to understand the nature of the changes made. In contrast, the first example provides a clear summary of the changes and includes additional details to provide context.
+
+In summary, writing informative and well-structured commit messages is essential for effective collaboration, code review, and project maintenance in Git. It helps team members understand the history of changes in the project and facilitates communication among collaborators.
+
